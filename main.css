@@ -1,0 +1,55 @@
+body{
+    background-image: url(skyscraper.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div h1{
+    position: relative;
+    top: 200px;
+    width: 275px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    font-size: 35px;
+    margin: 0 auto;
+}
+div h2{
+    position: relative;
+    top: 225px;
+    width: 225px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    font-size: 25px;
+    margin: 0 auto;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+nav li{
+    display: inline-block;
+    position: relative;
+    left: 950px;
+    margin-left: 15px;
+}
+nav h3{
+    text-align: center;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}

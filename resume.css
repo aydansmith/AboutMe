@@ -1,0 +1,38 @@
+body{
+    background-image: url(city.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div{
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+nav li{
+    display: inline-block;
+    position: relative;
+    left: 950px;
+    margin-left: 15px;
+}
+nav h3{
+    text-align: center;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
