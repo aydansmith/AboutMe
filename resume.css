@@ -29,15 +29,17 @@ nav{
     opacity: 0.9;
     color: white;
 }
-nav ul{
-    list-style: none;
-    display: inline-block;
+ul {
+    list-style-type: none;
+    overflow: hidden;
 }
-nav li{
-    display: inline-block;
-    position: relative;
-    left: 950px;
+
+li {
+    float: right;
     margin-left: 15px;
+    margin-right: 5px;
+    position: relative;
+    right: 5px;
 }
 div.head{
     text-align: center;
