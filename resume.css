@@ -14,11 +14,14 @@ body{
     margin-right: auto;
 }
 .box {
-    position: absolute;
-    top: 42px;
+    position: fixed;
     left: 0;
-    width: 100%;
+    width: 70%;
     height: 100%;
+    right: 0;
+    margin: 5% auto;
+    bottom: 0;
+    top: 0;
 }
 nav{
     position: fixed;
