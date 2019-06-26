@@ -8,11 +8,10 @@ body{
 .container {
     position: relative;
     width: 70%;
-	height: 100%;
-	padding-bottom: 56.25%;
-	margin-left: auto;
-	margin-right: auto;
-}
+    height: 100%;
+    padding-bottom: 56.25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .box {
     position: absolute;
